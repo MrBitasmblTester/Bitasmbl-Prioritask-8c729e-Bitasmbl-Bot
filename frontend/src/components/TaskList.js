@@ -1,0 +1,1 @@
+import React,{useEffect,useState} from 'react';\nexport default function TaskList({projectId}){\n  const [tasks,setTasks]=useState([]);\n  useEffect(()=>{\n    // TODO: fetch(`/api/tasks?projectId=${projectId}`) and sort by priority\n  },[projectId]);\n  return <div>TODO: list + add/edit/delete UI</div>;\n}\n
