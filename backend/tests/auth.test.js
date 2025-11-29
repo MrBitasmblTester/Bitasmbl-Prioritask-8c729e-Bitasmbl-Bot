@@ -1,0 +1,1 @@
+const request = require('supertest');\n// const app = require('../src/server');\ndescribe('Auth',()=>{\n  test('login returns JWT', async()=>{\n    // TODO: call /api/auth/login and expect token\n  });\n});\n
