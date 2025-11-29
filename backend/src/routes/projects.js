@@ -1,0 +1,1 @@
+const router = require('express').Router();\n// GET / - list projects for user\nrouter.get('/',(req,res)=>{\n  // TODO: fetch projects for req.user.id\n});\n// POST / - create project\nrouter.post('/',(req,res)=>{\n  // TODO: create new project linked to user\n});\nmodule.exports = router;\n
