@@ -1,0 +1,1 @@
+import React from 'react';\nimport { createRoot } from 'react-dom/client';\nimport App from './App';\n// TODO: wrap in AuthProvider if created\ncreateRoot(document.getElementById('root')).render(<App />);\n
