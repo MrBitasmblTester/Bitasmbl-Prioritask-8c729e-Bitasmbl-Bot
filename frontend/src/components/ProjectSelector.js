@@ -1,0 +1,1 @@
+import React,{useEffect,useState} from 'react';\nexport default function ProjectSelector(){\n  const [projects,setProjects]=useState([]);\n  useEffect(()=>{\n    // TODO: fetch('/api/projects',{headers:{Authorization:`Bearer TOKEN`}})\n  },[]);\n  return <div>TODO: project dropdown + add form</div>;\n}\n
