@@ -1,0 +1,1 @@
+{\n  \"name\": \"task-manager-backend\",\n  \"scripts\": {\n    \"start\": \"node src/server.js\"\n  },\n  \"dependencies\": {\n    \"express\": \"^4\",\n    \"jsonwebtoken\": \"^9\"\n  }\n}\n
