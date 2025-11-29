@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n// TODO: require('./routes/auth'); require('./routes/tasks');\napp.use(express.json());\n// app.use('/api/auth', authRouter);\n// app.use('/api/tasks', authMiddleware, taskRouter);\napp.listen(4000, () => console.log('API running on 4000'));\n
