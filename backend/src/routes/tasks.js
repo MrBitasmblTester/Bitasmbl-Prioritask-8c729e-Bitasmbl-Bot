@@ -1,0 +1,1 @@
+const router = require('express').Router();\n// GET /?projectId= - list tasks sorted by priority\nrouter.get('/',(req,res)=>{\n  // TODO: filter by projectId, sort by priority desc\n});\n// POST / - create task with project + priority\nrouter.post('/',(req,res)=>{\n  // TODO: persist task\n});\nmodule.exports = router;\n
