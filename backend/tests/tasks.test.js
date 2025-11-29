@@ -1,0 +1,1 @@
+describe('Tasks',()=>{\n  test('requires JWT', async()=>{\n    // TODO: hit /api/tasks without token -> 401\n  });\n  test('returns tasks sorted by priority',()=>{\n    // TODO: call handler with sample data, assert order\n  });\n});\n
