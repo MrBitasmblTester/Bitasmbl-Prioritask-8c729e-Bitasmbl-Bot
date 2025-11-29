@@ -1,0 +1,1 @@
+import React,{useState} from 'react';\nexport default function LoginPage(){\n  const [email,setEmail]=useState('');\n  const handleSubmit=e=>{\n    e.preventDefault();\n    // TODO: POST /api/auth/login, store JWT, update auth context\n  };\n  return (<form onSubmit={handleSubmit}>TODO: login fields</form>);\n}\n
