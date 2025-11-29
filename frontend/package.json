@@ -1,0 +1,1 @@
+{\n  \"name\": \"task-manager-frontend\",\n  \"scripts\": {\n    \"start\": \"react-scripts start\"\n  },\n  \"dependencies\": {\n    \"react\": \"^18\",\n    \"react-dom\": \"^18\"\n  }\n}\n
