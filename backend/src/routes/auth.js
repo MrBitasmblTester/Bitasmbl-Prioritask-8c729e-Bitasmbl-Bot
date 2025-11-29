@@ -1,0 +1,1 @@
+const router = require('express').Router();\n// POST /register\nrouter.post('/register',(req,res)=>{\n  // TODO: validate, persist user, return JWT\n});\n// POST /login\nrouter.post('/login',(req,res)=>{\n  // TODO: verify credentials, return JWT\n});\nmodule.exports = router;\n
