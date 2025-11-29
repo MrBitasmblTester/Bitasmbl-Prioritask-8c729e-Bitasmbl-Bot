@@ -1,0 +1,1 @@
+const jwt = require('jsonwebtoken');\nmodule.exports = (req,res,next)=>{\n  // TODO: read token from Authorization header, verify, attach user to req\n  // const token = ...; jwt.verify(token, process.env.JWT_SECRET, ...);\n  return next();\n};\n
