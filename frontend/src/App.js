@@ -1,0 +1,1 @@
+import React from 'react';\n// TODO: import LoginPage, TaskBoard, useAuth\nexport default function App(){\n  // const { token } = useAuth();\n  // return token ? <TaskBoard /> : <LoginPage />;\n  return <div>TODO: auth-aware routing</div>;\n}\n
